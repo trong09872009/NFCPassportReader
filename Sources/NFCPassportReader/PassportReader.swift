@@ -66,7 +66,7 @@ public class PassportReader : NSObject {
     private var scanCompletedHandler: ((NFCPassportModel?, NFCPassportReaderError?)->())!
     private var nfcViewDisplayMessageHandler: ((NFCViewDisplayMessage) -> String?)?
     private var masterListURL : URL?
-    private var shouldNotReportNextReaderSessionInvalidationErrorUserCanceled : Bool = false
+    public var shouldNotReportNextReaderSessionInvalidationErrorUserCanceled : Bool = false
 
     // By default, Passive Authentication uses the new RFS5652 method to verify the SOD, but can be switched to use
     // the previous OpenSSL CMS verification if necessary

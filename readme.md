@@ -137,9 +137,6 @@ There are a number of things I'd like to implement in no particular order:
  * Finish off PACE authentication (IM and CAM)
  
 
-## Thanks
-I'd like to thank the writers of pypassport (Jean-Francois Houzard and Olivier Roger - can't find their website but referenced from https://github.com/andrew867/epassportviewer) who's work this is based on.
-
 The EPassport section on YobiWiki (http://wiki.yobi.be/wiki/EPassport)  This has been an invaluable resource especially around Passive Authentication.
 
 Marcin Krzyżanowski for his OpenSSL-Universal repo.
